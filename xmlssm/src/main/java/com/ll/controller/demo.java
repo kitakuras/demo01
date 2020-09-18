@@ -6,5 +6,6 @@ public class demo {
         System.out.println("???");
         System.out.println("dev1");
         System.out.println("merge");
+        System.out.println("reset head");
     }
 }
