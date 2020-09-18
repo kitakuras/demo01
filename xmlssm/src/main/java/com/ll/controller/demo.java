@@ -8,5 +8,6 @@ public class demo {
         System.out.println("merge");
         System.out.println("reset head");
         System.out.println("reset head2");
+        System.out.println("reset head3");
     }
 }
