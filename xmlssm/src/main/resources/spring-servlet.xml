@@ -9,5 +9,13 @@
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
+
+    <!--主要就是为了Spring MVC来用的，提供Controller请求转发，json自动转换等功能 -->
+    <mvc:annotation-driven>
+       <!-- <mvc:message-converters>
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter"/>
+        </mvc:message-converters>-->
+    </mvc:annotation-driven>
+
     <mvc:resources mapping="/**" location="/"/>
 </beans>
